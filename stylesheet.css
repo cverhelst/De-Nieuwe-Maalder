@@ -1,0 +1,296 @@
+body
+{
+margin:0;
+padding:0;
+background:#FAE18F url('afb/beige089.jpg') left top;
+font:0.9em Arial,sans-serif;
+}
+
+.blinden {
+display:none;
+}
+
+a:focus {
+outline:none;
+}
+
+/* Header */
+
+  #header {
+  min-width:984px;
+  height:300px;
+  position:relative;
+  }
+
+  div.midden {
+  width:50%;
+  position:absolute;
+  top:0;
+  left:25%;
+  }
+
+  .midden img {
+  display:block;
+  position:relative;
+  top:0;
+  left:50%;
+  margin-left:-150px;
+  }
+  
+  div.rechts {
+  width:25%;
+  position:absolute;
+  top:20px;
+  right:0;
+  }
+  
+  .rechts img {
+	display:block;
+	margin:0 auto;
+  border:1px solid #752D05;
+  }
+  
+  div.links {
+  width:25%;
+  position:absolute;
+  top:20px;
+  left:0;
+  }
+  
+  .links img {
+	display:block;
+	margin:0 auto;
+  border:1px solid #752D05;
+  }
+  
+  .midden h1 {
+  margin:0;
+  text-align:center;
+  font:1.5em Georgia, serif;
+  }
+/* End of header */	
+
+/* Middle section */	
+	
+  #container {
+  position:relative;
+  min-width:984px;
+  padding:0;
+  margin:0;
+  }
+	
+	/* Menu */
+  
+    #menu {
+    position:absolute;
+    top:20px;
+    left:0;
+    width:25%;
+    }
+    
+    #menu ul{
+		margin:0 auto;
+    width:180px;
+    padding:0;
+    background-color:#752D05;
+    }
+    
+    #menu ul li {
+    margin-top:1px;
+    text-align:center;
+    list-style-type:none;
+    background-color:#D6A048;
+    border-left:10px solid #D6A048;
+    font-weight:bold;
+    color:black;
+    }
+    
+    #menu ul li a{
+    display:block;
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+    padding:8px 0;
+    }
+    
+    #menu ul li a:hover, #menu ul li a:focus{
+    background:#FAE18F url('afb/beige089.jpg') left top;
+    }
+    
+    #menu ul li.current {
+    border-left:10px solid #752D05;
+    background-color:#D6A048;
+    }
+		
+		#menu ul li p {
+    margin:0;
+    padding:8px 0;
+    }
+  
+	/* End of menu */
+  
+	/* Openingsuren */
+	
+    #openingsuren {
+    position:absolute;
+    top:20px;
+    right:0;
+    width:25%;
+	font-size:0.8em;
+    }
+    
+    #openingsuren table{
+    margin:0 auto;
+    width:180px;
+    background-color:#752D05;
+    border-collapse:collapse;
+    }
+    
+    #openingsuren table body {
+    font-size:80%;
+    }
+    
+    #openingsuren table tr {
+    background-color:#D6A048;
+    border-top:1px solid #752D05;
+    }
+    
+    #openingsuren table td {
+    padding:0 4px;
+		height:2.7em;
+    }
+    
+    #openingsuren table caption {
+    margin:0 auto;
+    font-weight:bold;
+    text-align:center;
+    background-color:#D6A048;
+    padding:3px;
+    }
+    
+    td.right {
+    text-align:right;
+    }
+	
+	/* End of openingsuren */
+	
+	/* Content */
+	
+	h2.bericht {
+	margin:60px 0 0 10px;
+	text-align:center;
+	font-size:1.1em;
+	}
+	
+	p.bericht {
+	font-weight:bold;
+	text-align:center;
+	font-size:1em;
+	}
+	
+  	#contentContainer {
+    padding-top:20px;
+		margin:0px auto;
+    width:50%;
+    }
+    
+    #content {
+    position:relative;
+    padding:10px 20px;
+    border-left:2px solid #752D05;
+    border-right:2px solid #752D05;
+		min-height:800px;
+    }
+    
+    #content img {
+    display:block;
+    margin:0 auto;
+    }
+    
+    #content h1, #content p#welkom , #content p.geschiedenis{
+    text-align:center;
+    }
+	
+		#content p#welkom, #content p.geschiedenis {
+		line-height:2em;
+		}
+	
+		#content p.return {
+		font-size:0.7em;
+		text-align:right;
+		}
+		
+		#content span {
+		font-size:0.7em;
+		}
+  
+  	/* Horizontaal menu */
+  	
+      ul#hmenu {
+      text-align:center;
+      list-style-type:none;
+      padding:0;
+      }
+      
+      ul#hmenu li {
+      display:inline;
+      padding:0 10px;
+      }
+      
+      ul#hmenu li a {
+      font-size:120%;
+      color:#752D05;
+      text-decoration:none;
+      border-bottom:1px solid #752D05;
+      }
+      
+      ul#hmenu li a:hover, ul#hmenu li a:focus{
+      color:#000000;
+      border:none;
+      }
+    
+  	/* End of horizontaal menu */
+		/* Contact table */
+		
+		 table#contact {
+		 margin:10px auto;
+		 width:300px;
+		 }
+		 
+		/* End of contact table */
+		
+	/* End of content */
+	
+/* End of middle section */
+	
+/* Footer */
+	
+  #footer {
+  margin:5px 0 0 0;
+	min-width:984px;
+  background-color:#5A1F00;
+  text-align:center;
+  padding-top:5px;
+  }
+  
+  #footer a {
+  text-decoration:none;
+  color:#FDE792;
+  }
+  
+  #footer p {
+  padding:0;
+	margin:0 auto;
+	text-align:center;
+  }
+  
+  #footer img {
+  border:none;
+  width:88px;
+  height:31px;
+  }
+
+	
+/* End of footer */
+
+/* Webdeveloper: Cameron Verhelst */
